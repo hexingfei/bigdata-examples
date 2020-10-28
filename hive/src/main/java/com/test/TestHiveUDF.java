@@ -10,6 +10,9 @@ import org.apache.hadoop.io.IntWritable;
  */
 public class TestHiveUDF extends UDF{
 
+
+
+
 	public IntWritable evaluate(IntWritable i,IntWritable j){
 		return new IntWritable(i.get() + j.get());
 	}
